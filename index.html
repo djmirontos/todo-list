@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list App</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h3>Create Task</h3>
+            <form action="">
+                <textarea name="" id="task"
+                placeholder="Write your task in here"></textarea>
+                <button id="btnAdd">Create </button>
+            </form>
+        </div>
+        <ul class="list">
+            <li class="doing">
+                <div class="complete-icon"><img src="./images/check-mark.png" alt=""></div>
+                <div class="content">Content Task</div>
+                <div class="close-icon"><img src="./images/cancel.png" alt=""></div>
+            </li>
+            <li class="complete">
+                <div class="complete-icon"><img src="./images/check-mark.png" alt=""></div>
+                <div class="content">Content Task</div>
+                <div class="close-icon"><img src="./images/cancel.png" alt=""></div>
+            </li>
+        </ul>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
